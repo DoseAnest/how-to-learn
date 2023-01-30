@@ -76,10 +76,6 @@ pre {
 a {
   background-color: transparent;
 }
-a:hover {
-  opacity: 0.7;
-}
-/*Добавил затенение для ссылок*/
 
 /**
  * 1. Remove the bottom border in Chrome 57-
