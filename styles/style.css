@@ -55,6 +55,7 @@
 }
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 .header__main-illustration{
   background-image: url(../images/header-image.png);
@@ -90,6 +91,8 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
+  padding: 0;
 }
 .two-columns__main-text {
   min-width: 784px;
@@ -110,7 +113,10 @@
 .digits {
   padding-top: 100px;
   padding-bottom: 100px;
- 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center
 }
 .section-title {
   width: 60%;
@@ -131,7 +137,8 @@
 .table {
   display: flex;
   max-width: 1100px;
-  margin: auto;
+  margin-left: 0;
+  padding-left: 0;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
@@ -139,7 +146,7 @@
 }
 .table__cell {
   width: 250px;
-  margin: 60px auto 0;
+  margin: 60px 0 0;
 }
 .table__heading {
   line-height: 1.15;
@@ -233,7 +240,6 @@
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 20px;
   margin-top: 80px;
   z-index: 1;
 }
@@ -293,7 +299,7 @@
   text-decoration: none;
   padding: 0;
 }
-.footer__column-link_image {
+.footer__social-icon {
   margin-right: 10px;
   height: 16px;
   width: 16px;
