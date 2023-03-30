@@ -1,4 +1,4 @@
-@import url(../page/normalize/normalize.css);
+@import url(../page/vendor/normalize.css);
 @import url(../page/page.css);
 @import url(../page/content/logo/logo.css);
 @import url(../page/content/logo/_place/_header/logo_place_header.css);
